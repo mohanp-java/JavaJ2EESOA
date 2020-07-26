@@ -1,0 +1,13 @@
+Module 2 - interview questions and quiz
+Arrays : 
+1. Can you change the size of an array once created?
+2. pass negative number to an array?
+3. How do you check whether two arrays are equal? -> Arrays.equals(arr1 , arr2)
+4. Copying arrays : 
+a. By using for loop
+b. By using clone() method -> int b[] = a.clone(); 
+c. By using System.arraycopy() method  System.arraycopy(a, 0, b, 0, 3);
+what happens when you concatenate two chars?
+why strings are immutable?
+String intern?
+
