@@ -1,0 +1,4 @@
+Dissassembler command : javap -c classname
+
+eg:1.  javap -c DerivedClass
+2. javap -c Learner
