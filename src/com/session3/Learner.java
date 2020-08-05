@@ -1,5 +1,7 @@
 package com.session3;
 
+import com.session4.AccessModifierDemo;
+
 public class Learner {
     String name;
     int regNo;
@@ -10,6 +12,7 @@ public class Learner {
     }
 
     public void doAssignment(String name) {
+        System.out.println(AccessModifierDemo.aFloat);
         System.out.println(name + "completed the assignment");
     }
 
