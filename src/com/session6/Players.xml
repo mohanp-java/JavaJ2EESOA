@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<players>
+	<player id="18">
+		<firstname>Virat</firstname>
+		<lastname>Kohli</lastname>
+		<nickname>Kohli</nickname>
+		<salary>1000000</salary>
+	</player>
+	<player id="7">
+		<firstname>MS</firstname>
+		<lastname>Dhoni</lastname>
+		<nickname>Dhoni</nickname>
+		<salary>2000000</salary>
+	</player>
+</players>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Item>
+		<family> Fitbit </family>
+		<name> Versa 2 </name>
+		<color> Mulberry purple </color>
+		<price> ₹19,799 </price>
+	</Item>
+  <Item>
+		<family> Fitbit </family>
+		<name> Iconic </name>
+		<color> Charcoal </color>
+		<price> ₹23,849 </price>
+	</Item>
+</Items>
