@@ -5,3 +5,4 @@
 3. Additionally, the other documents discussed during the session will be available under Other files.
 4. If there is any difficulty in jdk setup, please follow the Java installation guide which can be found under Other files.
 5. javap command can be seen under other files section. Kindly explore.
+6. prerequisites of module 7 can be viewed under other files. Also, included all the commands in SQLScripts.txt, and other png files created by me.
