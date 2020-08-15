@@ -7,8 +7,8 @@ public class Exception1 {
     public static void main(String[] args) {
         int s = 10;
         Scanner scanner = new Scanner(System.in);
-        int r = scanner.nextInt();
         try {
+            int r = scanner.nextInt();
             System.out.println("The value of s/r : " + (s/r));
         }
        catch(ArithmeticException e) {

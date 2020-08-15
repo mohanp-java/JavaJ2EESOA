@@ -1,0 +1,28 @@
+1. Download Oracle 11g Express edition from https://www.oracle.com/database/technologies/xe-prior-releases.html based on your Operating System(OS)
+2. Extract the zip file and run setup.exe
+3. In the setup dialog, enter password of your choice. eg: admin
+4. Download DBEaver from https://dbeaver.io/download/ and the required drivers while setting up the new connection
+5. Set Build path in Eclipse right click on project-> Build Path -> Configure Build path -> Add external jars -> browse the location -> C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib
+--------------------------------------------------------------------------------------------
+Oracle DB :
+sqlplus
+sys as sysdba
+create user java64 identified by password;
+grant connect, resoruce to java64;
+-------------------
+2. Validate User
+sqlplus
+sqlplus java64/password@XE
+
+--------------------
+
+In Java class,
+
+--------------------------------------------------------------------------------------------
+jdbc Connection url in getConnection("jdbc:oracle:thin:@localhost:1521:XE", "uname", "pwd")
+
+---------------------------------------------------------------------------------------------
+
+Optional :
+1. To download mySQL driver, https://dev.mysql.com/downloads/connector/j/, select OS as Platform Independent and download zip archive.
+2. Login with your Oracle Account(Free) and click on download now mysql-connector-java-8.0.21.zip  
